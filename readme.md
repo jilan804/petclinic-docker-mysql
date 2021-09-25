@@ -3,6 +3,19 @@ mydata:-
 docker run --name kumar-mysql(host name) -e MYSQL_ROOT_PASSWORD=jilan3476(password) -e MYSQL_DATABASE=kumar_db(inside database name) -e MYSQL_USER=admin(root admin) -e MYSQL_PASSWORD=kumar_password -d mysql:latest --default-authentication-plugin=mysql_native_password
 commands:-
 =======
+
+root@ip-172-31-93-118:~/petclinic-docker-mysql/target/classes/spring# cat data-access.properties
+# Properties that control the population of schema and data for a new data source
+jdbc.initLocation=classpath:db/mysql/schema.sql
+jdbc.dataLocation=classpath:db/mysql/data.sql
+
+jpa.showSql=true
+
+jdbc.driverClassName=com.mysql.cj.jdbc.Driver
+jdbc.url=jdbc:mysql://kumar-mysql:3306/kumar_db?useUnicode=true
+jdbc.username=kumar_user
+jdbc.password=kumar_password
+
  docker exec -it cd3d44db806e bash
   285  dokcer ps
   286  ls
