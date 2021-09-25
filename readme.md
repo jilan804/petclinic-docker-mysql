@@ -1,4 +1,9 @@
-maven 3.6v and java 8version
+docker
+https://github.com/KUMAR-REDDY-BAVANASI/petclinic-docker-mysql
+
+
+maven 3.6v and java 8version inside of docker file taken version tomcat:9.0
+
 not putting -h because of host is already we enterd inside of container 
 mysql -u kumar_user -p
 given the password 
