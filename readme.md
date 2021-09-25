@@ -1,3 +1,4 @@
+maven 3.6v and java 8version
 not putting -h because of host is already we enterd inside of container 
 mysql -u kumar_user -p
 given the password 
