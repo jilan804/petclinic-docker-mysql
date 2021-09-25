@@ -1,6 +1,9 @@
 docker
 https://github.com/KUMAR-REDDY-BAVANASI/petclinic-docker-mysql
 
+fixing path:
+===========
+export PATH=$PATH:/root/maven38/bin/
 
 maven 3.6v and java 8version inside of docker file taken version tomcat:9.0
 
