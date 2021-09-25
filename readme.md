@@ -1,3 +1,6 @@
+docker run --name kumar-mysql(host name) -e MYSQL_ROOT_PASSWORD=jilan3476(password) -e MYSQL_DATABASE=kumar_db(inside database name) -e MYSQL_USER=admin(root admin) -e MYSQL_PASSWORD=kumar_password -d mysql:latest --default-authentication-plugin=mysql_native_password
+
+
 # Spring PetClinic Sample Application
 
 # petclinic-docker-mysql
