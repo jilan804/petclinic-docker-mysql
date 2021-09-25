@@ -5,6 +5,11 @@ show databases;
 use kumar_db;
 show databases;
 
+we need to check:-
+==============
+/root/petclinic-docker-mysql/target/classes/spring
+
+
 mydata:-
 ======
 docker run --name kumar-mysql(host name) -e MYSQL_ROOT_PASSWORD=jilan3476(password) -e MYSQL_DATABASE=kumar_db(inside database name) -e MYSQL_USER=admin(root admin) -e MYSQL_PASSWORD=kumar_password -d mysql:latest --default-authentication-plugin=mysql_native_password
@@ -33,7 +38,7 @@ commands:-
   304  ls
   305  cd ..
   306  la
-  307  lls
+  307  ls
   308  ls
   309  cd classes/
   310  ls
