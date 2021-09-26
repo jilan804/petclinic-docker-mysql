@@ -98,6 +98,8 @@ docker run --name kumar-mysql -e MYSQL_ROOT_PASSWORD=kumar_password -e MYSQL_DAT
 
 docker build . -t petclinic
 
+ mvn clean install -P MySql
+
 
 # step 3:- For running the final application linking the petclinic application and mysql database.
 
