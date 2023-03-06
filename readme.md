@@ -13,6 +13,7 @@ given the password
 show databases;
 use kumar_db;
 show databases;
+ mysql -u admin -p;
 
 we need to check:-
 ==============
